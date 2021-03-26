@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  bot:
+    build: ./docker/
+    command: poetry run python main.py
+    restart: always
+    volumes:
+      - ./config_override.json:/app/config_override.json
+      - ./database:/app/database
