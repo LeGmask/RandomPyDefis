@@ -10,7 +10,7 @@ python = "^3.7"
 requests = "^2.25.1"
 beautifulsoup4 = "^4.9.3"
 "discord.py" = "^1.6.0"
-python-dotenv = "^0.15.0"
+python-dotenv = "^0.17.0"
 humanize = "^3.3.0"
 
 [tool.poetry.dev-dependencies]
